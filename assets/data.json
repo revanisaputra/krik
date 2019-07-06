@@ -1,0 +1,386 @@
+﻿[
+        {
+            "bulan": "Januari",
+            "darah": "A",
+            "penerimaan": "409",
+            "sisa": "8,00",
+            "pemakaian": "367,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "Januari",
+            "darah": "B",
+            "penerimaan": "428",
+            "sisa": "77,00",
+            "pemakaian": "361,00",
+            "rusak": "8,00"
+        },
+        {
+            "bulan": "Januari",
+            "darah": "AB",
+            "penerimaan": "135",
+            "sisa": "9,00",
+            "pemakaian": "98,00",
+            "rusak": "6,00"
+        },
+        {
+            "bulan": "Januari",
+            "darah": "O",
+            "penerimaan": "515",
+            "sisa": "86,00",
+            "pemakaian": "402,00",
+            "rusak": "7,00"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "A",
+            "penerimaan": "310",
+            "sisa": "48,00",
+            "pemakaian": "295,00",
+            "rusak": "4,00"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "B",
+            "penerimaan": "357",
+            "sisa": "136,00",
+            "pemakaian": "347,00",
+            "rusak": "7,00"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "AB",
+            "penerimaan": "77",
+            "sisa": "39,00",
+            "pemakaian": "59,00",
+            "rusak": "10,00"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "O",
+            "penerimaan": "402",
+            "sisa": "193,00",
+            "pemakaian": "506,00",
+            "rusak": "13,00"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "A",
+            "penerimaan": "340",
+            "sisa": "59,00",
+            "pemakaian": "301,00",
+            "rusak": "3,00"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "B",
+            "penerimaan": "305",
+            "sisa": "139,00",
+            "pemakaian": "321,00",
+            "rusak": "15,00"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "AB",
+            "penerimaan": "69",
+            "sisa": "44,00",
+            "pemakaian": "81,00",
+            "rusak": "7,00"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "O",
+            "penerimaan": "518",
+            "sisa": "79,00",
+            "pemakaian": "485,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "April",
+            "darah": "A",
+            "penerimaan": "296",
+            "sisa": "95,00",
+            "pemakaian": "303,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "April",
+            "darah": "B",
+            "penerimaan": "367",
+            "sisa": "108,00",
+            "pemakaian": "357,00",
+            "rusak": "6,00"
+        },
+        {
+            "bulan": "April",
+            "darah": "AB",
+            "penerimaan": "83",
+            "sisa": "30,00",
+            "pemakaian": "93,00",
+            "rusak": "4,00"
+        },
+        {
+            "bulan": "April",
+            "darah": "O",
+            "penerimaan": "443",
+            "sisa": "105,00",
+            "pemakaian": "422,00",
+            "rusak": "1,00"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "A",
+            "penerimaan": "314,00",
+            "sisa": "86,00",
+            "pemakaian": "247,00",
+            "rusak": "3,00"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "B",
+            "penerimaan": "400,00",
+            "sisa": "112,00",
+            "pemakaian": "342,00",
+            "rusak": "4,00"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "AB",
+            "penerimaan": "95,00",
+            "sisa": "40,00",
+            "pemakaian": "72,00",
+            "rusak": "6,00"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "O",
+            "penerimaan": "484,00",
+            "sisa": "120,00",
+            "pemakaian": "457,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "A",
+            "penerimaan": "311,00",
+            "sisa": "150,00",
+            "pemakaian": "360,00",
+            "rusak": "4,00"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "B",
+            "penerimaan": "346,00",
+            "sisa": "166,00",
+            "pemakaian": "330,00",
+            "rusak": "5,00"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "AB",
+            "penerimaan": "56,00",
+            "sisa": "19,00",
+            "pemakaian": "87,00",
+            "rusak": "7,00"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "O",
+            "penerimaan": "456,00",
+            "sisa": "141,00",
+            "pemakaian": "466,00",
+            "rusak": "0,00"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "A",
+            "penerimaan": "402,00",
+            "sisa": "97,00",
+            "pemakaian": "344,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "B",
+            "penerimaan": "387,00",
+            "sisa": "177,00",
+            "pemakaian": "334,00",
+            "rusak": "3,00"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "AB",
+            "penerimaan": "118,00",
+            "sisa": "9,00",
+            "pemakaian": "98,00",
+            "rusak": "6,00"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "O",
+            "penerimaan": "507,00",
+            "sisa": "124,00",
+            "pemakaian": "397,00",
+            "rusak": "3,00"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "A",
+            "penerimaan": "349,00",
+            "sisa": "153,00",
+            "pemakaian": "369,00",
+            "rusak": "5,00"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "B",
+            "penerimaan": "477,00",
+            "sisa": "227,00",
+            "pemakaian": "446,00",
+            "rusak": "7,00"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "AB",
+            "penerimaan": "114,00",
+            "sisa": "26,00",
+            "pemakaian": "86,00",
+            "rusak": "6,00"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "O",
+            "penerimaan": "605,00",
+            "sisa": "228,00",
+            "pemakaian": "494,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "September",
+            "darah": "A",
+            "penerimaan": "313,00",
+            "sisa": "128,00",
+            "pemakaian": "371,00",
+            "rusak": "4,00"
+        },
+        {
+            "bulan": "September",
+            "darah": "B",
+            "penerimaan": "412,00",
+            "sisa": "251,00",
+            "pemakaian": "463,00",
+            "rusak": "3,00"
+        },
+        {
+            "bulan": "September",
+            "darah": "AB",
+            "penerimaan": "66,00",
+            "sisa": "52,00",
+            "pemakaian": "86,00",
+            "rusak": "11,00"
+        },
+        {
+            "bulan": "September",
+            "darah": "O",
+            "penerimaan": "506,00",
+            "sisa": "333,00",
+            "pemakaian": "455,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "A",
+            "penerimaan": "381,00",
+            "sisa": "66,00",
+            "pemakaian": "363,00",
+            "rusak": "3,00"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "B",
+            "penerimaan": "518,00",
+            "sisa": "197,00",
+            "pemakaian": "491,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "AB",
+            "penerimaan": "127,00",
+            "sisa": "30,00",
+            "pemakaian": "104,00",
+            "rusak": "5,00"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "O",
+            "penerimaan": "480,00",
+            "sisa": "373,00",
+            "pemakaian": "472,00",
+            "rusak": "0,00"
+        },
+        {
+            "bulan": "November",
+            "darah": "A",
+            "penerimaan": "304,00",
+            "sisa": "81,00",
+            "pemakaian": "270,00",
+            "rusak": "10,00"
+        },
+        {
+            "bulan": "November",
+            "darah": "B",
+            "penerimaan": "393,00",
+            "sisa": "222,00",
+            "pemakaian": "436,00",
+            "rusak": "6,00"
+        },
+        {
+            "bulan": "November",
+            "darah": "AB",
+            "penerimaan": "84,00",
+            "sisa": "53,00",
+            "pemakaian": "68,00",
+            "rusak": "6,00"
+        },
+        {
+            "bulan": "November",
+            "darah": "O",
+            "penerimaan": "419,00",
+            "sisa": "376,00",
+            "pemakaian": "456,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "A",
+            "penerimaan": "318,00",
+            "sisa": "105,00",
+            "pemakaian": "352,00",
+            "rusak": "2,00"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "B",
+            "penerimaan": "307,00",
+            "sisa": "173,00",
+            "pemakaian": "366,00",
+            "rusak": "3,00"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "AB",
+            "penerimaan": "107,00",
+            "sisa": "67,00",
+            "pemakaian": "136,00",
+            "rusak": "28,00"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "O",
+            "penerimaan": "337,00",
+            "sisa": "333,00",
+            "pemakaian": "485,00",
+            "rusak": "36,00"
+        }
+    ]

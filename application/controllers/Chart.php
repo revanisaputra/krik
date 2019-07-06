@@ -18,33 +18,112 @@ class Chart extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+
+public function visin ()
 	{
-		$jsonData='[{"nama":"I\/a","jumlah":"4"},{"nama":"I\/b","jumlah":"11"},{"nama":"I\/c","jumlah":"52"},{"nama":"I\/d","jumlah":"21"},{"nama":"II\/a","jumlah":"187"},{"nama":"II\/b","jumlah":"83"},{"nama":"II\/c","jumlah":"391"},{"nama":"II\/d","jumlah":"228"},{"nama":"III\/a","jumlah":"442"},{"nama":"III\/b","jumlah":"946"},{"nama":"III\/c","jumlah":"476"},{"nama":"III\/d","jumlah":"589"},{"nama":"IV\/a","jumlah":"1432"},{"nama":"IV\/b","jumlah":"118"},{"nama":"IV\/c","jumlah":"41"},{"nama":"IV\/d","jumlah":"5"},{"nama":"IV\/e","jumlah":"3"}]';
-
-		$jsonData2='[{"tahun":"2010","val":0},{"tahun":"2011","val":0},{"tahun":"2012","val":0},{"tahun":"2013","val":0},{"tahun":"2014","val":0},{"tahun":"2015","val":0},{"tahun":"2016","val":"52943.00"},{"tahun":"2017","val":"54760.00"},{"tahun":"2018","val":0}]';
-
-		$jumlahPangkat=json_decode($jsonData);
-		$grafik_data=[];
-		foreach($jumlahPangkat as $row)
+	//Visualisasi 1------------------------------------------------------------------------------------------1
+	$source=file_get_contents('assets/visdat.json');
+	$source=json_decode(preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $source), true);
+	$result=array();
+	foreach ($source as $row ) 
+	{
+		if(!isset($result[$row['darah']]))
 		{
-			$dt=array($row->nama,intval($row->jumlah));
-			array_push($grafik_data, $dt);
+			$result[$row['darah']] = array($row['pemakaian']);
+		}else {
+			array_push($result[$row['darah']], $row['pemakaian']);
 		}
+	}
+	$keys=array_keys($result);
+	$darah=array();
+	foreach ($keys as $row)
+	{
+		$darah[]=[$row, array_sum($result[$row])];	
+	}
+	$data['PieChartData']=json_encode($darah);
+	$data['PieChartTitle']='Presentase Penerimaan Darah 2016';
 
-		$jsonData2Array=json_decode($jsonData2);
 
-		$grafik_data2=[];
-		foreach($jsonData2Array as $row)
+	//Visualisasi 2------------------------------------------------------------------------------------------2
+	$result2=array();
+	foreach ($source as $row ) 
+	{
+		if(!isset($result2[$row['darah']]))
 		{
-			$dt=array($row->tahun,intval($row->val));
-			array_push($grafik_data2, $dt);
+			$result2[$row['darah']] = array($row['sisa']);
+		}else {
+			array_push($result2[$row['darah']], $row['sisa']);
 		}
+	}
+	$keys=array_keys($result2);
+	$dara=array();
+	foreach ($keys as $row)
+	{
+		$dara[]=[$row, array_sum($result2[$row])];	
+		}
+	$data['PieChartData2']=json_encode($dara);
+	$data['PieChartTitle2']='Presentase Darah Sisa 2016';
 
-		$title='Grafik Data Persentase Jomblo di UAD';		
 
-		$data['grafik_data']=json_encode($grafik_data2);
-		$data['title']=$title;
-		$this->load->view('chart',$data);
+	//Visualisasi 3------------------------------------------------------------------------------------------3
+	$darah = [array('Tanggal','Penerimaan','pakai','sisa')];
+	$totalData=array();
+	foreach ($source as $row)
+	{
+		$gol=($row['darah']);
+		if($gol!='A')
+		{
+		$dat = array($row['bulan'],(double)$row['penerimaan'],(double)$row['pemakaian'],(double)$row['sisa']);
+	}else{
+	$dat = array($row['bulan'],(double)$row['penerimaan'],(double)$row['pemakaian'],(double)$row['sisa']);
+	array_push($darah, $dat);
 	}
 }
+$data['BarChartData']=json_encode($darah);
+$data['BarChartTitle']= 'Data Pengelolaan Darah A';
+
+
+	//Visualisasi 4------------------------------------------------------------------------------------------4
+$rere = [array('Tanggal','Penerimaan','Penggunaan')];
+$res2=array();
+foreach ($source as $row) 
+{
+	$gol=($row['darah']);
+	if($gol!='O')
+	{
+		// $dat = array($row['bulan'],(double)$row['penerimaan'],(double)$row['pemakaian'],(double)$row['sisa']);
+		$dat2=array($row['bulan'],(double)$row['penerimaan'],(double)$row['pemakaian']);
+	}else{
+		$dat2=array($row['bulan'],(double)$row['penerimaan'],(double)$row['pemakaian']);
+		array_push($rere, $dat2);
+	}
+}
+
+$data['BarChartData7']=json_encode($rere);
+$data['BarChartTitle7']='Perbandingan antara penerimaan dan penggunaan darah O';
+
+	//Visualisasi 5------------------------------------------------------------------------------------------5
+
+$darah = [array('Tanggal','Rusak')];
+$totalData=array();
+foreach ($source as $row)
+{
+	$gol=($row['darah']);
+	if($gol!='A')
+	{
+		$dat = array($row['bulan'],(double)$row['rusak']);
+	}else{
+		$dat = array($row['bulan'],(double)$row['rusak']);
+		array_push($darah, $dat);
+	}
+}
+$data['AkhirChartData']=json_encode($darah);
+$data['AkhirChartTitle']= 'Data Darah Rusak';
+
+
+	// view data
+$this->load->view('Grafik',$data);
+	}
+}
+
+

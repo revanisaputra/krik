@@ -1,0 +1,386 @@
+[
+        {
+            "bulan": "Januari",
+            "darah": "A",
+            "penerimaan": "409",
+            "sisa": "8",
+            "pemakaian": "367",
+            "rusak": "2"
+        },
+        {
+            "bulan": "Januari",
+            "darah": "B",
+            "penerimaan": "428",
+            "sisa": "77",
+            "pemakaian": "361",
+            "rusak": "8"
+        },
+        {
+            "bulan": "Januari",
+            "darah": "AB",
+            "penerimaan": "135",
+            "sisa": "9",
+            "pemakaian": "98",
+            "rusak": "6"
+        },
+        {
+            "bulan": "Januari",
+            "darah": "O",
+            "penerimaan": "515",
+            "sisa": "86",
+            "pemakaian": "402",
+            "rusak": "7"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "A",
+            "penerimaan": "310",
+            "sisa": "48",
+            "pemakaian": "295",
+            "rusak": "4"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "B",
+            "penerimaan": "357",
+            "sisa": "136",
+            "pemakaian": "347",
+            "rusak": "7"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "AB",
+            "penerimaan": "77",
+            "sisa": "39",
+            "pemakaian": "59",
+            "rusak": "10"
+        },
+        {
+            "bulan": "Februari",
+            "darah": "O",
+            "penerimaan": "402",
+            "sisa": "193",
+            "pemakaian": "506",
+            "rusak": "13"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "A",
+            "penerimaan": "340",
+            "sisa": "59",
+            "pemakaian": "301",
+            "rusak": "3"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "B",
+            "penerimaan": "305",
+            "sisa": "139",
+            "pemakaian": "321",
+            "rusak": "15"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "AB",
+            "penerimaan": "69",
+            "sisa": "44",
+            "pemakaian": "81",
+            "rusak": "7"
+        },
+        {
+            "bulan": "Maret",
+            "darah": "O",
+            "penerimaan": "518",
+            "sisa": "79",
+            "pemakaian": "485",
+            "rusak": "2"
+        },
+        {
+            "bulan": "April",
+            "darah": "A",
+            "penerimaan": "296",
+            "sisa": "95",
+            "pemakaian": "303",
+            "rusak": "2"
+        },
+        {
+            "bulan": "April",
+            "darah": "B",
+            "penerimaan": "367",
+            "sisa": "108",
+            "pemakaian": "357",
+            "rusak": "6"
+        },
+        {
+            "bulan": "April",
+            "darah": "AB",
+            "penerimaan": "83",
+            "sisa": "30",
+            "pemakaian": "93",
+            "rusak": "4"
+        },
+        {
+            "bulan": "April",
+            "darah": "O",
+            "penerimaan": "443",
+            "sisa": "105",
+            "pemakaian": "422",
+            "rusak": "1"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "A",
+            "penerimaan": "314",
+            "sisa": "86",
+            "pemakaian": "247",
+            "rusak": "3"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "B",
+            "penerimaan": "400",
+            "sisa": "112",
+            "pemakaian": "342",
+            "rusak": "4"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "AB",
+            "penerimaan": "95",
+            "sisa": "40",
+            "pemakaian": "72",
+            "rusak": "6"
+        },
+        {
+            "bulan": "Mei",
+            "darah": "O",
+            "penerimaan": "484",
+            "sisa": "120",
+            "pemakaian": "457",
+            "rusak": "2"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "A",
+            "penerimaan": "311",
+            "sisa": "150",
+            "pemakaian": "360",
+            "rusak": "4"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "B",
+            "penerimaan": "346",
+            "sisa": "166",
+            "pemakaian": "330",
+            "rusak": "5"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "AB",
+            "penerimaan": "56",
+            "sisa": "19",
+            "pemakaian": "87",
+            "rusak": "7"
+        },
+        {
+            "bulan": "Juni",
+            "darah": "O",
+            "penerimaan": "456",
+            "sisa": "141",
+            "pemakaian": "466",
+            "rusak": "0"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "A",
+            "penerimaan": "402",
+            "sisa": "97",
+            "pemakaian": "344",
+            "rusak": "2"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "B",
+            "penerimaan": "387",
+            "sisa": "177",
+            "pemakaian": "334",
+            "rusak": "3"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "AB",
+            "penerimaan": "118",
+            "sisa": "9",
+            "pemakaian": "98",
+            "rusak": "6"
+        },
+        {
+            "bulan": "Juli",
+            "darah": "O",
+            "penerimaan": "507",
+            "sisa": "124",
+            "pemakaian": "397",
+            "rusak": "3"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "A",
+            "penerimaan": "349",
+            "sisa": "153",
+            "pemakaian": "369",
+            "rusak": "5"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "B",
+            "penerimaan": "477",
+            "sisa": "227",
+            "pemakaian": "446",
+            "rusak": "7"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "AB",
+            "penerimaan": "114",
+            "sisa": "26",
+            "pemakaian": "86",
+            "rusak": "6"
+        },
+        {
+            "bulan": "Agustus",
+            "darah": "O",
+            "penerimaan": "605",
+            "sisa": "228",
+            "pemakaian": "494",
+            "rusak": "2"
+        },
+        {
+            "bulan": "September",
+            "darah": "A",
+            "penerimaan": "313",
+            "sisa": "128",
+            "pemakaian": "371",
+            "rusak": "4"
+        },
+        {
+            "bulan": "September",
+            "darah": "B",
+            "penerimaan": "412",
+            "sisa": "251",
+            "pemakaian": "463",
+            "rusak": "3"
+        },
+        {
+            "bulan": "September",
+            "darah": "AB",
+            "penerimaan": "66",
+            "sisa": "52",
+            "pemakaian": "86",
+            "rusak": "11"
+        },
+        {
+            "bulan": "September",
+            "darah": "O",
+            "penerimaan": "506",
+            "sisa": "333",
+            "pemakaian": "455",
+            "rusak": "2"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "A",
+            "penerimaan": "381",
+            "sisa": "66",
+            "pemakaian": "363",
+            "rusak": "3"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "B",
+            "penerimaan": "518",
+            "sisa": "197",
+            "pemakaian": "491",
+            "rusak": "2"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "AB",
+            "penerimaan": "127",
+            "sisa": "30",
+            "pemakaian": "104",
+            "rusak": "5"
+        },
+        {
+            "bulan": "Oktober",
+            "darah": "O",
+            "penerimaan": "480",
+            "sisa": "373",
+            "pemakaian": "472",
+            "rusak": "0"
+        },
+        {
+            "bulan": "November",
+            "darah": "A",
+            "penerimaan": "304",
+            "sisa": "81",
+            "pemakaian": "270",
+            "rusak": "10"
+        },
+        {
+            "bulan": "November",
+            "darah": "B",
+            "penerimaan": "393",
+            "sisa": "222",
+            "pemakaian": "436",
+            "rusak": "6"
+        },
+        {
+            "bulan": "November",
+            "darah": "AB",
+            "penerimaan": "84",
+            "sisa": "53",
+            "pemakaian": "68",
+            "rusak": "6"
+        },
+        {
+            "bulan": "November",
+            "darah": "O",
+            "penerimaan": "419",
+            "sisa": "376",
+            "pemakaian": "456",
+            "rusak": "2"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "A",
+            "penerimaan": "318",
+            "sisa": "105",
+            "pemakaian": "352",
+            "rusak": "2"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "B",
+            "penerimaan": "307",
+            "sisa": "173",
+            "pemakaian": "366",
+            "rusak": "3"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "AB",
+            "penerimaan": "107",
+            "sisa": "67",
+            "pemakaian": "136",
+            "rusak": "28"
+        },
+        {
+            "bulan": "Desember",
+            "darah": "O",
+            "penerimaan": "337",
+            "sisa": "333",
+            "pemakaian": "285",
+            "rusak": "36"
+        }
+    ]

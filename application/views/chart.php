@@ -27,28 +27,51 @@
                        'height':300};
 
         // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+
+
         chart.draw(data, options);
       }
 
-      //contoh array
-      var ar=[1,2,3,4,5,6,7];
-     for(var i=0; i<ar.length; i++)
-     {
-        console.log('Item: '+ar[i]);
-     }
 
-     var obj={
-      nama:'Hasan'
-     }
+      function dw() {
+        var grafik_data='<?php echo $grafik_data;?>' //string
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows(JSON.parse(grafik_data));
 
-     console.log(obj);
+        // Set chart options
+        var options = {'title':'<?php echo $title;?>',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_dw'));
+        
+
+        chart.draw(data, options);
+      }
+
     </script>
   </head>
 
   <body>
-   <?php echo $grafik_data;?>
+    <table border="2">
+      <tr>
+        <td><div id="chart_div"></div></td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td><div id="chart_dw"></div></td>
+      </tr>
+    </table>
+   <!-- <?php echo $grafik_data;?> -->
     <!--Div that will hold the pie chart-->
-    <div id="chart_div"></div>
+
   </body>
 </html>
